@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字数统计 - 简约而不简单</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 主容器 -->
+    <div class="container">
+        <h1>字数统计</h1>
+        
+        <!-- 输入区域 -->
+        <div class="input-area">
+            <textarea id="text-input" placeholder="在这里输入你的文字..."></textarea>
+        </div>
+        
+        <!-- 统计结果区域 -->
+        <div class="stats">
+            <div class="stat-header">
+                <div class="stat-item">
+                    <pre id="word-count"></pre>
+                </div>
+                <button id="copy-button" class="copy-btn">复制结果</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
